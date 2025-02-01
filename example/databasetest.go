@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/rafael180496/libcore/database"
+	"github.com/cparamoPriv/libcore/database"
 )
 
 func main() {
