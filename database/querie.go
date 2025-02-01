@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"fmt"
 
+	utl "github.com/cparamoPriv/libcore/utility"
 	"github.com/jmoiron/sqlx"
-	utl "github.com/rafael180496/libcore/utility"
 )
 
 /*QueryNative :  ejecuta la funcion nativa del paquete sql*/

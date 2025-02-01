@@ -1,6 +1,6 @@
 #Ambiente go oracle 
 FROM golang
-LABEL maintainer="rafael180496@gmail.com"
+LABEL maintainer="cristianenmanuel50@gmail.com"
 #Utilidades
 RUN apt-get update 
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends apt-utils
@@ -70,9 +70,9 @@ ENV GOSUMDB off
 ENV  PATH $PATH:$ORACLE_HOME/bin
 #depuracion de la imagen
 RUN  apt-get remove --purge unzip -y && \
-     apt-get remove --purge p7zip-full -y && \    
-     apt-get remove --purge alien -y && \
-     apt-get remove --purge rpm -y 
+    apt-get remove --purge p7zip-full -y && \    
+    apt-get remove --purge alien -y && \
+    apt-get remove --purge rpm -y 
 
 RUN  apt-get autoremove -y
 
@@ -90,7 +90,7 @@ COPY configssh/sshd_config /etc/ssh/sshd_config
 COPY configssh/user.sh /usr/local/bin/user.sh
 RUN chmod +x /usr/local/bin/user.sh
 RUN /usr/local/bin/user.sh
- 
+
 COPY configssh/entrypoint.sh /usr/local/bin/entrypoint.sh
 RUN chmod +x /usr/local/bin/entrypoint.sh
 ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]

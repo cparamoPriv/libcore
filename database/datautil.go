@@ -4,8 +4,9 @@ import (
 	"fmt"
 	"strings"
 
+	utl "github.com/cparamoPriv/libcore/utility"
 	"github.com/jmoiron/sqlx"
-	utl "github.com/rafael180496/libcore/utility"
+
 	"gopkg.in/ini.v1"
 )
 

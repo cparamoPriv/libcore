@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"os"
 
+	utl "github.com/cparamoPriv/libcore/utility"
 	"github.com/jmoiron/sqlx"
-	utl "github.com/rafael180496/libcore/utility"
 
 	/*Conexion a mysql*/
 	_ "github.com/go-sql-driver/mysql"
