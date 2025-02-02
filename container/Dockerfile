@@ -24,7 +24,7 @@ RUN apt-get install git -y
 #oracle cli 12.1
 RUN mkdir /usr/auxprogram && \
     cd /usr/auxprogram && \
-    git clone https://github.com/rafael180496/dockerglash.git
+    git clone https://github.com/cparamoPriv/dockerglash.git
 
 RUN cd  /usr/auxprogram/dockerglash && \
     7z e jdkclient.7z.001 

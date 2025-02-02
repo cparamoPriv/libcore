@@ -2,7 +2,7 @@
 
 ## **Introduccion**
 
-Libreria que contiene funciones e estructura para utilidades en cualquier proyecto go para instalacion por el paquete **database** y es windows ir a este [GoOracleWindow](https://github.com/rafael180496/tips/blob/main/GoOracleWindow.md)
+Libreria que contiene funciones e estructura para utilidades en cualquier proyecto go para instalacion por el paquete **database** y es windows ir a este [GoOracleWindow](https://github.com/cparamoPriv/tips/blob/main/GoOracleWindow.md)
 
 ### **TEST:**
 
@@ -18,7 +18,7 @@ Paquete contiene funciones e estructura para manipulacion de base de datos
 
 ### **Server:**
 
-Paquete para crea un api rest con ECHO mas practico un ejemplo seguir este [challengeBatchApi](https://github.com/rafael180496/challengeBatchApi).
+Paquete para crea un api rest con ECHO mas practico un ejemplo seguir este [challengeBatchApi](https://github.com/cparamoPriv/challengeBatchApi).
 
 ### **Documentacion**
 
